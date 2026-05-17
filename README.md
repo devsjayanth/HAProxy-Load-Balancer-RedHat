@@ -1,4 +1,4 @@
-# 🧭HAProxy Load Balancer Deployment Guide  
+# 🧭HAProxy Load Balancer Deployment
 ## For Red Hat-Based Distributions
 
 📌 **IMPORTANT NOTE:** `<HAProxy-ip>` is the IP address of your HAProxy VM/server. Replace `<HAProxy-ip>` with your actual IP (e.g., `10.0.0.170`) in all `bind` directives, firewall rules, and test commands throughout this guide.
