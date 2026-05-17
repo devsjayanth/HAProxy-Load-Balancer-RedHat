@@ -286,5 +286,3 @@ sudo haproxy -c -f /etc/haproxy/haproxy.cfg && sudo systemctl reload haproxy
 
 > 💡 **Pro Tip:** Save your final config with a timestamp for easy rollback:  
 > `sudo cp /etc/haproxy/haproxy.cfg /root/haproxy_$(date +%F).cfg`
-
-Reply with your actual `<HAProxy-ip>`, backend IPs, ports, and health path if you need a pre-filled, production-ready config block.
