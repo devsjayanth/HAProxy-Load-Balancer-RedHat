@@ -282,7 +282,7 @@ sudo haproxy -c -f /etc/haproxy/haproxy.cfg && sudo systemctl reload haproxy
 
 ---
 
-🎉 **Done!** Your HAProxy load balancer is now ready to deploy on `<HAProxy-ip>:<listen_port>` across **all modern Red Hat-based distributions**.
+🎉 **Done!** Your HAProxy load balancer is now ready to deploy on `<HAProxy-ip>:<listen_port>`.
 
 > 💡 **Pro Tip:** Save your final config with a timestamp for easy rollback:  
 > `sudo cp /etc/haproxy/haproxy.cfg /root/haproxy_$(date +%F).cfg`
